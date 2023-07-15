@@ -1,0 +1,80 @@
+.users {
+  width: 100%;
+  height: 92%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 15%;
+  height: 30%;
+  border: 2px solid rgb(133, 133, 133);
+  border-radius: 6px;
+}
+
+.image-container {
+  width: 100%;
+  height: 85%;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px 4px 0px 0px;
+  object-fit: cover;
+}
+
+.details-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15%;
+}
+
+.navigator {
+  padding-top: 1rem;
+  height: 8%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pages-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.pages-container div {
+  width: 46px;
+  height: 34px;
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid #9c9c9c;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages-container .active {
+  background-color: rgb(90, 174, 234);
+  color: white;
+  transition: 0.3s all ease;
+  border: 2px solid rgb(90, 174, 234);
+}
+
+.inactive {
+  opacity: 0.5;
+}
